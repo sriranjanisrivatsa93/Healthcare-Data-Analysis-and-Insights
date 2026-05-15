@@ -30,6 +30,3 @@
   - Average charges by State and Hospital tier.
   - Age correlation with BMI/HBA1C and age vs charges trend.
 - Added dashboard charts in Dashboard sheet.
-
-## How to Regenerate Output
-Run: python assignment_solution.py
