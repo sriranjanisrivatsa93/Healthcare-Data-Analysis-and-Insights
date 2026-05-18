@@ -30,3 +30,29 @@
   - Average charges by State and Hospital tier.
   - Age correlation with BMI/HBA1C and age vs charges trend.
 - Added dashboard charts in Dashboard sheet.
+
+## KPI snapshot
+| KPI | Value |
+|---|---:|
+| Total patients | 2335 |
+| Average age | 40.09 |
+| Average BMI | 30.97 |
+| Average HbA1C | 6.58 |
+| Total healthcare charges | $31,592,358.61 |
+| Average healthcare charges | $13,529.92 |
+| Smokers | 20.9% |
+| Patients with transplants | 6.17% |
+| Patients with cancer history | 16.75% |
+| Patients with heart issues | 39.66% |
+
+## Analytical findings
+The most common weight category in the cleaned dataset is **Obesity**, while the most common diabetes category is **Normal**. The most frequent hospital tier in the hospitalization records is **tier - 2**.
+
+Patients in the highest charge combination among weight and diabetes segments are **Obesity / Diabetes** with average charges of $19,347.66. The next two highest segments are **Obesity / Prediabetes** at $15,353.90 and **Obesity / Normal** at $15,188.44.
+
+For transplant history, the group labeled **No** recorded total major surgeries of 1417.0 and average HbA1C of 6.67, while the group labeled **yes** recorded total major surgeries of 162.0 and average HbA1C of 5.19.
+
+The top three states by average healthcare charges are **Unknown** at $20,996.53, **R1011** at $19,466.25, and **R1017** at $14,806.11.
+
+## Correlation insights
+The correlation between age and BMI is 0.052, the correlation between age and HbA1C is 0.460, and the correlation between age and charges is 0.304. These values suggest how strongly age moves with body mass, diabetic risk, and treatment cost in the dataset used for the assignment.
