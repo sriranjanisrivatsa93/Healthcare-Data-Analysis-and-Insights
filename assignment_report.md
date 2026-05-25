@@ -23,13 +23,13 @@
 
 ## Exploration and Visualization Completed
 - Created consolidated Healthcare sheet with required columns using Customer ID key.
-- Added analysis tables for:
+- In the Dashboard sheet, added analysis tables for:
   - Cancer history distribution among smokers/non-smokers.
   - Surgeries + average HBA1C by transplant status.
   - Average charges by Weight Status and Diabetes Status.
   - Average charges by State and Hospital tier.
   - Age correlation with BMI/HBA1C and age vs charges trend.
-- Added dashboard charts in Dashboard sheet.
+- Also created a slicer based interactive dashboard that can be used to change these charts.
 
 ## KPI snapshot
 | KPI | Value |
